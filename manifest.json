@@ -1,0 +1,28 @@
+{
+    "id": "com.stremio.123movies.addon",
+    "version": "1.2.0",
+    "name": "123movies",
+    "description": "Watch movies and tv shows in HD. This addon provides direct links, a good alternative to p2p streaming.",
+    "catalogs": [],
+    "resources": [
+        {
+            "name": "stream",
+            "types": [
+                "movie",
+                "series"
+            ],
+            "idPrefixes": [
+                "tt"
+            ]
+        }
+    ],
+    "types": [
+        "movie",
+        "series"
+    ],
+    "behaviorHints": {
+        "configurable": false,
+        "configurationRequired": false
+    },
+    "logo": "https://i.imgur.com/h8bXln2.png"
+}

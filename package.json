@@ -1,0 +1,21 @@
+{
+  "name": "123movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cache-manager": "^3.4.0",
+    "cache-manager-mongodb": "^0.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fast-html-parser": "^1.0.1",
+    "needle": "^2.6.0",
+    "request": "^2.88.2",
+    "stremio-addon-sdk": "^1.6.5"
+  }
+}
